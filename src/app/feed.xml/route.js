@@ -8,8 +8,8 @@ export async function GET(req) {
 
 
   let author = {
-    name: 'Sangita Mallik',
-    email: 'smallik@sanpec.com',
+    name: 'Neil Mallik',
+    email: 'Nmallik35@gmail.com',
   }
 
   let feed = new Feed({
@@ -18,8 +18,8 @@ export async function GET(req) {
     author,
     id: siteUrl,
     link: siteUrl,
-    image: `${siteUrl}/favicon.ico`,
-    favicon: `${siteUrl}/favicon.ico`,
+    image: `${siteUrl}/apple-touch-icon.png`,
+    favicon: `${siteUrl}/apple-touch-icon.png`,
     copyright: `All rights reserved ${new Date().getFullYear()}`,
     feedLinks: {
       rss2: `${siteUrl}/feed.xml`,

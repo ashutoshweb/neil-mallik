@@ -186,7 +186,7 @@ function MailIcon(props) {
 }
 
 export const metadata = {
-  title: 'About',
+  title: 'Gallery',
   description:
     'Neil Mallik',
 }
