@@ -5,7 +5,20 @@ import remarkGfm from 'remark-gfm'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
+  swcMinify: false,
+  webpack: (config, options) =>
+    {
+        config.module.rules.push({
+            test: /\.pdf$/i,
+            type: 'asset/source'
+        })
+
+        return config
+    },
+
 }
+
+
 
 const withMDX = nextMDX({
   extension: /\.mdx?$/,

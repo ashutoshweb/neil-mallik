@@ -1,5 +1,5 @@
-import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
+import { FooterNeil } from '@/components/FooterNeil'
+import { HeaderNeil } from '@/components/HeaderNeil'
 
 export function Layout({ children }) {
   return (
@@ -10,9 +10,9 @@ export function Layout({ children }) {
         </div>
       </div>
       <div className="relative flex w-full flex-col">
-        <Header />
+        <HeaderNeil />
         <main className="flex-auto">{children}</main>
-        <Footer />
+        <FooterNeil />
       </div>
     </>
   )

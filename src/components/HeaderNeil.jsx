@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { Fragment, useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
@@ -9,7 +9,13 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/sangitamallik-linkedin-pic.jpeg'
+import avatarImage from '@/images/mallik/IMG_5463.jpg'
+import imagem2 from '@/images/mallik/IMG_5409.jpg'
+import imagem3 from '@/images/mallik/IMG_5376.jpg'
+
+import imagem4 from '@/images/mallik/IMG_5167.jpg'
+
+import imagem5 from '@/images/mallik/Neil0.jpg'
 
 function CloseIcon(props) {
   return (
@@ -126,9 +132,9 @@ function MobileNavigation(props) {
               <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
                 <MobileNavItem href="/about">About</MobileNavItem>
                 <MobileNavItem href="/articles">Articles</MobileNavItem>
-                <MobileNavItem href="/projects">Projects</MobileNavItem>
-                <MobileNavItem href="/speaking">Speaking</MobileNavItem>
-                <MobileNavItem href="/uses">Uses</MobileNavItem>
+                <MobileNavItem href="/sports">Sports</MobileNavItem>
+
+                <MobileNavItem href="/neil">Gallery</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -167,9 +173,8 @@ function DesktopNavigation(props) {
       <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
         <NavItem href="/about">About</NavItem>
         <NavItem href="/articles">Articles</NavItem>
-        <NavItem href="/projects">Projects</NavItem>
-        <NavItem href="/speaking">Speaking</NavItem>
-        <NavItem href="/uses">Uses</NavItem>
+        <NavItem href="/sports">Sports</NavItem>
+        <NavItem href="/neil">Gallery</NavItem>
       </ul>
     </nav>
   )
@@ -226,7 +231,7 @@ function Avatar({ large = false, className, ...props }) {
       <Image
         src={avatarImage}
         alt=""
-        sizes={large ? '4rem' : '2.25rem'}
+        sizes={large ? '8rem' : '2.25rem'}
         className={clsx(
           'rounded-full bg-zinc-100 object-cover dark:bg-zinc-800',
           large ? 'h-16 w-16' : 'h-9 w-9',
@@ -237,7 +242,7 @@ function Avatar({ large = false, className, ...props }) {
   )
 }
 
-export function Header() {
+export function HeaderNeil() {
   let isHomePage = usePathname() === '/'
 
   let headerRef = useRef(null)
@@ -355,38 +360,8 @@ export function Header() {
       >
         {isHomePage && (
           <>
-            <div
-              ref={avatarRef}
-              className="order-last mt-[calc(theme(spacing.16)-theme(spacing.3))]"
-            />
-            <Container
-              className="top-0 order-last -mb-3 pt-3"
-              style={{
-                position: 'var(--header-position)',
-              }}
-            >
-              <div
-                className="top-[var(--avatar-top,theme(spacing.3))] w-full"
-                style={{
-                  position: 'var(--header-inner-position)',
-                }}
-              >
-                <div className="relative">
-                  <AvatarContainer
-                    className="absolute left-0 top-3 origin-left transition-opacity"
-                    style={{
-                      opacity: 'var(--avatar-border-opacity, 0)',
-                      transform: 'var(--avatar-border-transform)',
-                    }}
-                  />
-                  <Avatar
-                    large
-                    className="block h-16 w-16 origin-left"
-                    style={{ transform: 'var(--avatar-image-transform)' }}
-                  />
-                </div>
-              </div>
-            </Container>
+
+
           </>
         )}
         <div
