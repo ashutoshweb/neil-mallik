@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ecc6de1-23ad-40d2-bb4f-4e5e729380fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/articles/crafting-a-design-system-for-a-multiplanetary-future/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/articles/crafting-a-design-system-for-a-multiplanetary-future/page1.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/articles/introducing-animaginary/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/articles/introducing-animaginary/page1.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/articles/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/articles/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/articles/rewriting-the-cosmos-kernel-in-rust/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/articles/rewriting-the-cosmos-kernel-in-rust/page1.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/feed.xml/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/feed.xml/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page2.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/mallik.jsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +68,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/neil/page.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="129">
               <caret line="235" column="101" selection-start-line="235" selection-start-column="101" selection-end-line="235" selection-end-column="101" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -225,6 +213,13 @@
               <item name="spotlight-js" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spotlight-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spotlight-js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="neil" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,7 +257,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1716931430406" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1716934139810" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -274,6 +269,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -300,7 +296,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -315,18 +311,17 @@
       <workItem from="1712332549383" duration="1586000" />
       <workItem from="1712336318814" duration="1345000" />
       <workItem from="1716839161029" duration="2554000" />
-      <workItem from="1716908749348" duration="16626000" />
+      <workItem from="1716908749348" duration="19115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23715000" />
+    <option name="totallyTimeSpent" value="26204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="53" width="1819" height="952" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2763084" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2763084" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -340,7 +335,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4244186" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5744186" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Anonymous Apex" order="10" />
@@ -649,7 +644,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/neil/page.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="129">
           <caret line="235" column="101" selection-start-line="235" selection-start-column="101" selection-end-line="235" selection-end-column="101" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
