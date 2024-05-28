@@ -5,9 +5,7 @@ import { Feed } from 'feed'
 export async function GET(req) {
   let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
 
-  if (!siteUrl) {
-    throw Error('Missing NEXT_PUBLIC_SITE_URL environment variable')
-  }
+
 
   let author = {
     name: 'Sangita Mallik',
