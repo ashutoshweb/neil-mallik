@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ecc6de1-23ad-40d2-bb4f-4e5e729380fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/favicon-1.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/feed.xml/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/feed.xml/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/neil/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/neil/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/sports/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sports/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/about/page.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="98" column="25" lean-forward="true" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+            <state relative-caret-position="397">
+              <caret line="97" column="23" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="23" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -59,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/neil/page.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="176" column="26" lean-forward="true" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+              <caret line="176" column="26" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -103,11 +97,14 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/page.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7467">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="325">
+              <caret line="516" column="59" selection-start-line="516" selection-start-column="59" selection-end-line="516" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,7 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>I live in Houston, wher</find>
       <find>unsp</find>
       <find>fetchpriority</find>
       <find>ima</find>
@@ -146,6 +142,7 @@
       <find>Sports</find>
       <find>metadata</find>
       <find>Twitte</find>
+      <find>SocialLink</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -169,7 +166,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/ArticleLayout.jsx" />
         <option value="$PROJECT_DIR$/src/app/articles/neil-article/page.mdx" />
-        <option value="$PROJECT_DIR$/src/app/page.jsx" />
         <option value="$PROJECT_DIR$/src/components/HeaderNeil.jsx" />
         <option value="$PROJECT_DIR$/src/components/Layout.jsx" />
         <option value="$PROJECT_DIR$/src/components/FooterNeil.jsx" />
@@ -178,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/app/sports/page.jsx" />
         <option value="$PROJECT_DIR$/src/app/neil/page.jsx" />
         <option value="$PROJECT_DIR$/src/app/about/page.jsx" />
+        <option value="$PROJECT_DIR$/src/app/page.jsx" />
       </list>
     </option>
   </component>
@@ -248,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1716938202873" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1716939287461" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -302,7 +299,7 @@
       <workItem from="1712332549383" duration="1586000" />
       <workItem from="1712336318814" duration="1345000" />
       <workItem from="1716839161029" duration="2554000" />
-      <workItem from="1716908749348" duration="22313000" />
+      <workItem from="1716908749348" duration="23060000" />
     </task>
     <task id="LOCAL-00001" summary="Delete files for linting issues">
       <created>1716934198060</created>
@@ -332,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1716935239735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Change favicon">
+      <created>1716938283842</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716938283842</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29402000" />
+    <option name="totallyTimeSpent" value="30149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="53" width="1819" height="952" extended-state="0" />
@@ -429,7 +433,8 @@
     <MESSAGE value="Remove env variable" />
     <MESSAGE value="run mpm i" />
     <MESSAGE value="Regenerate package-lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regenerate package-lock" />
+    <MESSAGE value="Change favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change favicon" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/SocialIcons.jsx">
@@ -730,7 +735,17 @@
     <entry file="file://$PROJECT_DIR$/src/app/neil/page.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="176" column="26" lean-forward="true" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <caret line="176" column="26" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/about/page.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="97" column="23" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="23" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -739,15 +754,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/page.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7467">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/about/page.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="98" column="25" lean-forward="true" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        <state relative-caret-position="325">
+          <caret line="516" column="59" selection-start-line="516" selection-start-column="59" selection-end-line="516" selection-end-column="59" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

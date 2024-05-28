@@ -514,7 +514,7 @@ export default async function Home() {
             A curious mind immersed in innovation, baseball, and community building.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
+            <SocialLink href="https://twitter.com/Nmallik35" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
               href="#"
               aria-label="Follow on Instagram"
